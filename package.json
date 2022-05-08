@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "node-fetch": "^3.2.2",
+    "undici": "^5.1.1"
+  },
+  "name": "spybot",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "VK spy bot",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node -r dotenv/config src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trard/vkspybot.git"
+  },
+  "keywords": [
+    "spy",
+    "vk",
+    "bot"
+  ],
+  "author": "Trard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Trard/vkspybot/issues"
+  },
+  "homepage": "https://github.com/Trard/vkspybot#readme"
+}
