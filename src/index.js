@@ -2,8 +2,8 @@ import VKWrapper from "../lib/wrapper.js";
 import fs from "fs";
 
 var requsts = 0;
-var huntId = 311955073;
-var instances = process.env.tokens.split(',').map((token) => {return {"token": token, "requests_per_second": 5}})
+var huntId = 495643428;
+var instances = process.env.tokens1.split(',').map((token) => {return {"token": token, "requests_per_second": 6}})
 
 var VK = new VKWrapper({
     "instances": instances,

@@ -2,7 +2,7 @@
   "dependencies": {
     "dotenv": "^16.0.0",
     "node-fetch": "^3.2.2",
-    "undici": "^5.1.1"
+    "undici": "^5.2.0"
   },
   "name": "spybot",
   "type": "module",
