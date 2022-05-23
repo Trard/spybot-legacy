@@ -1,4 +1,4 @@
-import VKWrapper from "../lib/wrapper.js";
+import VKWrapper from "../lib/core.js"
 
 var instances = process.env.tokens1.split(',').map((token) => {return {"token": token, "requests_per_second": 6}}) //3 tokens 6 seconds = 380 requests per seconds
 
